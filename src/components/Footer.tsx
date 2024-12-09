@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaYoutube } from "react-icons/fa";
-
+import Image from 'next/image';
 const Footer = () => {
   return (
     <div>
@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand Info */}
           <div>
             <div className='flex'>
-              <img src="/images/LogoIcon.png" alt="PayPal" className="h-6 flex" />
+              <Image src="/images/LogoIcon.png" alt="sofa" width={30} height={30} className="h-6 flex" />
               <h3 className="text-lg font-bold font-inter text-black">Comforty</h3>
             </div>
             <p className="text-gray-600 mt-4 font-inter">
@@ -98,7 +98,7 @@ const Footer = () => {
           <div className="container mx-auto flex flex-col font-inter md:flex-row items-center justify-between text-gray-600 text-sm">
             <p>© 2023 - Blogy - Designed & Developed by Zahirsoft</p>
             <div className="flex space-x-4">
-              <img src="/images/paypal.png" alt="PayPal" className="h-6" />
+              <Image src="/images/paypal.png" alt="PayPal" width={150} height={4} className="h-6" />
             </div>
           </div>
         </div>

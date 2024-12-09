@@ -1,5 +1,4 @@
-"use client";
-import React, { useState } from "react";
+import React from "react";
 import { TiTick } from "react-icons/ti";
 import { FaAngleDown } from "react-icons/fa6";
 import { CiCircleAlert } from "react-icons/ci";
@@ -7,7 +6,7 @@ import Image from "next/image";
 import { BsCartDash } from "react-icons/bs";
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false); // State for mobile menu toggle
+  
 
   return (
     <div className="w-full h-[203px]">
@@ -67,16 +66,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile menu */}
-        {menuOpen && (
-          <div className="md:hidden flex flex-col items-center bg-white py-3 space-y-2 text-gray-700">
-            <a href="#" className="hover:text-teal-600">Home</a>
-            <a href="#" className="hover:text-teal-600">Shop</a>
-            <a href="#" className="hover:text-teal-600">Product</a>
-            <a href="#" className="hover:text-teal-600">Pages</a>
-            <a href="#" className="hover:text-teal-600">About</a>
-          </div>
-        )}
+       
       </div>
     </div>
   );

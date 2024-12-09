@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Hero = () => {
   return (
     <section className="w-full   h-[800px] mt-11 pt-10 bg-[#FFFFFF]  py-16 px-12 flex flex-col md:flex-row items-center justify-between">
@@ -19,9 +19,11 @@ const Hero = () => {
       
       {/* Right Side Image */}
       <div className="mt-24 md:mt-0 bg-[#F0F2F3] h-[700px] mb-40   ">
-        <img
+        <Image
           src="/images/Product.png"
           alt="Chair"
+          width={1000}
+          height={1000}
           className="w-[584px] h-[584px] mt-28 object-contain mx-auto md:mx-0"
         />
      </div>

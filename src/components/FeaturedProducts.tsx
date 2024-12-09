@@ -8,13 +8,13 @@ const FeaturedProducts = () => {
     <div className="w-full bg-white">
       {/* Logo Section */}
       <div className="w-full h-[139px] flex justify-evenly gap-0 items-center py-4 ">
-        <img src="/images/Logo1.png" alt="Zapier" className="w-[85px] h-[87px] object-contain" />
-        <img src="/images/Logo2.png" alt="Pipedrive" className="w-[107px] h-[109px] object-contain" />
-        <img src="/images/Logo3.png" alt="CIB Bank" className="w-[135px] h-[139px] object-contain" />
-        <img src="/images/Logo4.png" alt="Logo4" className="w-[63px] h-[65px] object-contain" />
-        <img src="/images/Logo5.png" alt="Burnt Toast" className="w-[98px] h-[101px] object-contain" />
-        <img src="/images/Logo6.png" alt="PandaDoc" className="w-[113px] h-[115px] object-contain" />
-        <img src="/images/Logo7.png" alt="Moz" className="w-[84px] h-[87px] object-contain" />
+        <Image src="/images/Logo1.png" alt="Zapier"      width={85} height={87} className="w-[85px] h-[87px] object-contain" />
+        <Image src="/images/Logo2.png" alt="Pipedrive"   width={107} height={109} className="w-[107px] h-[109px] object-contain" />
+        <Image src="/images/Logo3.png" alt="CIB Bank"    width={135} height={139} className="w-[135px] h-[139px] object-contain" />
+        <Image src="/images/Logo4.png" alt="Logo4"       width={63} height={65} className="w-[63px] h-[65px] object-contain" />
+        <Image src="/images/Logo5.png" alt="Burnt Toast" width={98} height={65} className="w-[98px] h-[101px] object-contain" />
+        <Image src="/images/Logo6.png" alt="PandaDoc"    width={113} height={115} className="w-[113px] h-[115px] object-contain" />
+        <Image src="/images/Logo7.png" alt="Moz"         width={84} height={87} className="w-[84px] h-[87px] object-contain" />
       </div>
 
       {/* Featured Products Section */}
@@ -27,9 +27,10 @@ const FeaturedProducts = () => {
         <span className="absolute top- left- text-xs font-semibold px-2 py-1 rounded text-white bg-green-500">
           New
         </span>
-        <img
+        <Image
           src="/images/White.png"
           alt="Library Stool Chair"
+          width={230} height={230}
           className="w-[230px] h-[230px] object-cover rounded-lg mb-4"
         />
         <div className="flex justify-between items-center">
@@ -44,9 +45,12 @@ const FeaturedProducts = () => {
         <span className="absolute top- left- text-xs font-semibold px-2 py-1 rounded text-white bg-red-500">
           Sale
         </span>
-        <img
+        <Image
           src="/images/Pink.png"
           alt="Library Stool Chair"
+         
+          width={230} height={230}
+
           className="w-[230px] h-[230px] object-cover rounded-lg mb-4"
         />
         <div className="flex justify-between items-center">
@@ -58,9 +62,10 @@ const FeaturedProducts = () => {
 
       {/* Product 3 */}
       <div className="relative w-[312px] h-[377px] p-4 rounded-lg shadow-sm">
-  <img
+  <Image
     src="/images/Orange.png"
     alt="Library Stool Chair"
+    width={230} height={230}
     className="w-[230px] h-[230px] object-cover rounded-lg mb-4"
   />
   <div className="flex justify-between items-center">
@@ -71,9 +76,10 @@ const FeaturedProducts = () => {
 </div>
 {/* product 4 */}
 <div className="relative w-[312px] h-[377px] p-4 rounded-lg shadow-sm">
-  <img
+  <Image
     src="/images/Sofa.png"
     alt="Library Stool Chair"
+    width={230} height={230}
     className="w-[230px] h-[230px] object-cover rounded-lg mb-4"
   />
   <div className="flex justify-between items-center">

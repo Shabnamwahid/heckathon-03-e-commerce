@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 export default function Pages() {
   return (
     <div className="container mx-auto p-10">
@@ -7,9 +8,11 @@ export default function Pages() {
       <div className="flex flex-col md:flex-row items-center bg-gray-100 p-6 rounded-lg shadow-lg max-w-3xl mx-auto">
         {/* Product Image */}
         <div className="w-full md:w-1/2">
-          <img
+          <Image
             src="/images/Pink.png"
             alt="Library Stool Chair"
+            width={400}
+            height={350}
             className="rounded-lg object-cover"
           />
         </div>

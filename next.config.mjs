@@ -1,4 +1,19 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// /** @type {import('next').nextConfig} */
+// const nextConfig = {
+//     images: {
+//         domains:["cdn.sanity.io"]
+//     },
+// };
 
-export default nextConfig;
+// module.exports = nextConfig;
+ 
+// // export default nextConfig;
+// next.config.js (or next.config.mjs if you're using mjs extensions)
+const nextConfig = {
+    images: {
+      domains: ["cdn.sanity.io"],
+    },
+  };
+  
+  export default nextConfig;  // ES module export syntax
+  

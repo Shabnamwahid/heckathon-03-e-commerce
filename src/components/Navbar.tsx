@@ -4,7 +4,7 @@ import React from "react";
 import { TiTick } from "react-icons/ti";
 import { FaAngleDown } from "react-icons/fa6";
 import { CiCircleAlert } from "react-icons/ci";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { BsCartDash } from "react-icons/bs";
 import Link from "next/link";
 

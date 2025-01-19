@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaYoutube } from "react-icons/fa";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 const Footer = () => {
   return (
     <div>

@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaPhoneAlt, FaRegClock } from 'react-icons/fa';
 import { GrTrophy } from "react-icons/gr";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 
 const Contact = () => {

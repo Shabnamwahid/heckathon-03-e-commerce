@@ -104,7 +104,7 @@
 
 // export default FeaturedProducts;
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { BsCartDash } from "react-icons/bs";
 
 const FeaturedProducts = () => {

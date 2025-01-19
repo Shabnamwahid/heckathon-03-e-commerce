@@ -35,13 +35,13 @@
 // export default Hero;   
 
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Hero = () => {
   return (
     <section className="w-full h-[800px] mt-11 pt-10 bg-[#FFFFFF] py-16 px-8 sm:px-12 md:px-16 lg:px-24 flex flex-col sm:flex-row items-center justify-between">
       {/* Left Side Content */}
-      <div className="bg-[#F0F2F3] h-[700px] flex mb-40 ml-14 rounded-bl-[48px] ">
+      <div className="bg-[#F0F2F3] w-[1500px] h-[700px] flex mb-40 ml-14 rounded-bl-[48px] ">
         <div className="max-w-md text-left space-y-4 sm:ml-24 mt-60">
           <p className="text-sm sm:text-base text-gray-500 uppercase tracking-wide">
             Welcome to Chairy
@@ -59,8 +59,8 @@ const Hero = () => {
           <Image
             src="/images/Product.png"
             alt="Chair"
-            width={1000}
-            height={1000}
+            width={700}
+            height={700}
             className="w-[584px] h-[584px] mt-28 object-contain mx-auto md:mx-0"
           />
         </div>

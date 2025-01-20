@@ -8,6 +8,7 @@ import Image from "next/legacy/image";
 import { BsCartDash } from "react-icons/bs";
 import Link from "next/link";
 
+
 const Navbar = () => {
   return (
     <div className="w-full h-[203px]">
@@ -44,7 +45,9 @@ const Navbar = () => {
     </div>
     <div className="flex items-center gap-3 bg-white p-2 rounded-md shadow">
       <BsCartDash className="w-5 h-5 sm:w-4 sm:h-4" />
-      <p className="text-sm sm:text-xs md:text-sm">Cart</p>
+       
+        
+      <Link href="/Product"> <p className="text-sm sm:text-xs md:text-sm">Cart</p></Link>
       <p className="bg-[#007580] text-white rounded-full px-2 text-sm mt-1 mb-1 pb-1 pt-0 sm:text-xs md:text-sm">
         2
       </p>
@@ -70,8 +73,8 @@ const Navbar = () => {
       </div>
     </div>
   </div>
+ 
 </div>
-
   
   );
 };

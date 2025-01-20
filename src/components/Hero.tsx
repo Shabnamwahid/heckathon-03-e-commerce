@@ -36,7 +36,7 @@
 
 import React from "react";
 import Image from "next/legacy/image";
-
+import  Link  from "next/link";
 const Hero = () => {
   return (
     <section className="w-full h-[800px] mt-11 pt-10 bg-[#FFFFFF] py-16 px-8 sm:px-12 md:px-16 lg:px-24 flex flex-col sm:flex-row items-center justify-between">
@@ -49,9 +49,12 @@ const Hero = () => {
           <h1 className="lg:text-3xl sm:text-5xl md:text-6xl font-bold text-gray-800 leading-snug">
             Best Furniture  <br /> Collection For Your <br /> Interior.
           </h1>
+          {/* link the product page */}
+          {/* <Link href="/product-page" passHref></Link> */}
+          <Link href="/Product" className="hover:text-teal-600">
           <button className="mt-6 px-8 py-3 bg-teal-500 text-white font-medium rounded-md shadow-md hover:bg-teal-600 transition-all">
             Shop Now <span className="ml-2">→</span>
-          </button>
+          </button></Link>
         </div>
         
         {/* Right Side Image */}

@@ -9,8 +9,9 @@ dotenv.config();
 const {
     NEXT_PUBLIC_SANITY_PROJECT_ID="usep95cz",
     NEXT_PUBLIC_SANITY_DATASET="production",
-    NEXT_PUBLIC_SANITY_AUTH_TOKEN="skWHQ1Bj4y6jmsGiLW0gBGN3poL83s08wqQOQLGx20PIR1mgKwcq08Cu1Cc55XH2f5ofKCkKHyo0gbTrtI6Wy50AJgazJoEgGhOxz6eVLTKnsSixqpTMpmAYEf1DrbQ2JliyBtdm026PeEyXRvVzIUIvFKmz79tgT0bdWKR1DXwjvVzm1A7r",
-  BASE_URL = "https://giaic-hackathon-template-08.vercel.app", // API base URL for products and categories
+    // NEXT_PUBLIC_SANITY_AUTH_TOKEN="skWHQ1Bj4y6jmsGiLW0gBGN3poL83s08wqQOQLGx20PIR1mgKwcq08Cu1Cc55XH2f5ofKCkKHyo0gbTrtI6Wy50AJgazJoEgGhOxz6eVLTKnsSixqpTMpmAYEf1DrbQ2JliyBtdm026PeEyXRvVzIUIvFKmz79tgT0bdWKR1DXwjvVzm1A7r",
+    NEXT_PUBLIC_SANITY_AUTH_TOKEN="2023-01-01",
+    BASE_URL = "https://giaic-hackathon-template-08.vercel.app", // API base URL for products and categories
 } = process.env;
 
 // Check if the required environment variables are provided

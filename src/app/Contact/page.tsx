@@ -121,8 +121,8 @@
 'use client';
 import React, { useState } from 'react';
 import { FaMapMarkerAlt, FaPhoneAlt, FaRegClock } from 'react-icons/fa';
-import { GrTrophy } from "react-icons/gr";
-import Image from "next/legacy/image";
+// import { GrTrophy } from "react-icons/gr";
+// import Image from "next/image";
 
 const Contact = () => {
   const [comments, setComments] = useState<string[]>([]); // Fix: explicitly set the type of comments as string[]

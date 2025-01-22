@@ -27,6 +27,7 @@
 {
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "ES2015",
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -43,6 +44,7 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // Ensure this is pointing to the root of your project
     "paths": {
       "@/*": ["./src/*"],
       "lib/*": ["./lib/*"]
@@ -53,7 +55,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "lib/**/*"  // Added this line to include lib folder in your project
+    "lib/**/*"  // Correct inclusion for lib folder
   ],
   "exclude": ["node_modules"]
 }
